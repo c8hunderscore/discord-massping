@@ -1,6 +1,6 @@
 # Discord Massping
 
-A small massping script which runs directly in Discord, just pase it into the JavaScript console.
+A small massping script which runs directly in Discord, just paste it into the JavaScript console.
 
 ## DISCLAIMER: I, THE CREATOR OF THIS SCRIPT, AM NOT RESPONSIBLE FOR ANY ACTION DISCORD TAKES ON YOUR ACCOUNT FOR USING THIS SCRIPT. MASSPINGING IS AGAINST DISCORD'S TERMS OF SERVICE AND CAN LEAD TO A BAN; USE AT YOUR OWN WILL.
 
