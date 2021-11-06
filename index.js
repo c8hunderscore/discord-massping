@@ -5,18 +5,18 @@
 		loop_count: 3,
 	};
 
-	const findModule = (locator) =>
-		Object.values(
-			webpackJsonp.push([
-				[],
-				{
-					"": (_, e, r) => { e.cache = r.c },
-				},
-				[[""]]
-			]).cache
-		).find(m => typeof m.exports?.default?.[locator] != "undefined")
-			.exports
-			.default;
+	let req;
+
+	webpackChunkdiscord_app.push([
+		[Math.random().toString(36)],
+		{},
+		e => req = e.c,
+	]);
+
+	const findModule = locator => Object.values(req)
+		.find(m => m.exports?.default?.[locator] !== void 0)
+		.exports
+		.default;
 
 	const user = findModule("getCurrentUser").getCurrentUser();
 
